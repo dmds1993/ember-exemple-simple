@@ -1,0 +1,6 @@
+{
+  "name": "mock-hotels",
+  "dependencies": {
+    "selectize": "miguelcobain/selectize.js#master"
+  }
+}

@@ -1,0 +1,15 @@
+<h1>Rota de input</h1>
+
+{{input value=pessoa.nome}}
+{{input value=pessoa.idade}}
+
+{{ember-selectize
+  content=items
+  optionValuePath="content.id"
+  optionLabelPath="content.name"
+  selection=item
+  placeholder="Select an item" }}
+
+<button type="button" name="button" {{action 'chamarNome'}}>
+  botao
+</button>

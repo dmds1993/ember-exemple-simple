@@ -1,0 +1,8 @@
+<h1>OI eu sou a rota de hotels</h1>
+
+{{#each model as |hotel|}}
+<br>
+  {{#link-to 'detail' hotel.id hotel.rooms.firstObject.rates.firstObject.rateToken}}
+    {{hotel.name}}
+  {{/link-to}}
+{{/each}}
